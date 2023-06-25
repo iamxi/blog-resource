@@ -1,0 +1,25 @@
+baseURL = 'https://blog.qiwei.dev/'
+languageCode = 'zh-cn'
+title = '我的博客'
+theme = 'PaperMod'
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[[menu.main]]
+    identifier = "blog"
+    name = "Blogs"
+    url = "/posts"
+    weight = 5
+
+[[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
